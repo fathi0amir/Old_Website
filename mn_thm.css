@@ -1,0 +1,155 @@
+/*This is the .css file created by myself (Amir Fathi) for my personal website*/
+
+/*---------------------------------------------------------------------------*/
+
+/*Here is the background patern for the whole website*/
+body{
+background-image: url(images/bckgrnd_mg.png);
+background-repeat: repeat;
+}
+
+/*---------------------------------------------------------------------------*/
+/*Here is the main division that centers the content*/
+.mn_frm{
+/*position: absolute;*/
+margin-top: 50px;
+margin-left: auto ;
+margin-right: auto ;
+/*margin-bottom: 100px;*/
+width: 1036px;
+/*padding: 10px;*/
+/*text-align: justify;*/
+/*border: silver inset;*/
+/*border-width: 5px;*/
+}
+/*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);*/
+/*opacity: 0.6;*/
+/*background-color: white;*/
+
+/*---------------------------------------------------------------------------*/
+/*Here is the my picture division*/
+.m_pht{
+/*position: absolute;*/
+/*margin-left: 20px;*/
+/*top: 33px;*/
+/*border: SeaGreen inset;*/
+/*border-width: 5px;*/
+/*background-color: white;*/
+}
+/*background-image: url(m_pht.png);*/
+/*background-color: aqua;*/
+
+/*---------------------------------------------------------------------------*/
+/*Here is the moto or where I place my signature*/
+.sgntr{
+/*position: absolute;*/
+/*margin-left: 240px;*/
+/*border: Red  inset;*/
+/*border-width: 5px;*/
+/*background-color: white;*/
+opacity: 0.8;
+/*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);*/
+filter:alpha(opacity=80);
+}
+
+/*---------------------------------------------------------------------------*/
+/*Here is the left column (sidebar area)*/
+.sdbr_r{
+position: absolute;
+margin-left: 20px;
+margin-top: 20px;
+width: 180px;
+/*padding: 10px;*/
+/*border: DodgerBlue  inset;*/
+/*border-width: 5px;*/
+/*background-color: white;*/
+/*opacity: 0.8;*/
+/*filter: alpha(opacity=80);*/
+}
+
+/*---------------------------------------------------------------------------*/
+/*Here is the right column (main content area)*/
+.cntnt_r{
+position: absolute;
+margin-left: 240px;
+margin-top: 20px;
+width: 746px;
+/*padding: 10px;*/
+/*border: silver inset;*/
+/*border-width: 5px;*/
+/*background-color: white;*/
+text-align: justify;
+/*opacity: 0.8;*/
+/*filter: alpha(opacity=80);*/
+}
+
+/*---------------------------------------------------------------------------*/
+/*Side bar list*/
+.sdbr_lst{
+width: 180px;
+margin-top: 20px;
+padding: 10px;
+/*border: DodgerBlue  inset;*/
+/*border-width: 5px;*/
+background-color: white;
+opacity: 0.8;
+filter: alpha(opacity=80);
+}
+
+/*---------------------------------------------------------------------------*/
+/*Main contant*/
+.cntnt{
+width: 746px;
+margin-top: 20px;
+padding: 10px;
+/*border: silver inset;*/
+/*border-width: 5px;*/
+padding: 10px;
+background-color: white;
+opacity: 0.8;
+filter: alpha(opacity=80);
+}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/* New definition for horizontal line that clears the float property before it*/
+hr.n_flt {
+clear: both;
+height: 5px;
+width: 90%;
+background-color: mediumspringgreen;
+}
+/*---------------------------------------------------------------------------*/
+/* Capital first letter in the home page at the begining of each paragraph in the contant division*/
+p.cptl_frst_lttr:first-letter {font-size: 8em;  float:left;color:DarkGreen;}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+a.soundcloud-dropbox:hover {
+color: #1896D1 !important; 
+background-color: transparent !important; 
+background-position: -200px 0 !important;
+}
+*html a.soundcloud-dropbox {background-image: none !important;
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='(http://a1.sndcdn.com/images/dropbox_square_white.png?b36e008)', sizingMethod='crop') !important;
+ }
+/*---------------------------------------------------------------------------*/
+/*---  The way the browser acts when you click on link or hover it.  --------*/
+a:link {color: blue;} /* an unvisited link */
+a:visited {color: purple;} /* a visited link */
+a:hover {color: red;} /* a link with the mouse hoveringover it */
+a:active {color: green;} /* the selected link */
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---   No Text Decoration (underline) for URLs  ----------------------------*/
+a {
+text-decoration: none;
+}
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/

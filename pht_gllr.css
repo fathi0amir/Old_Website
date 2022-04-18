@@ -1,0 +1,85 @@
+/*This is the .css file created by myself (Amir Fathi) for my personal website*/
+
+/*---------------------------------------------------------------------------*/
+/*The general theme of this photo gallary belongs to http://cssglobe.com and I just did some modification to fit my desires
+special thank  to them and to their team*/
+
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+
+	img{
+		border:none;
+	}
+	
+	.pht_gllr{
+			width: 746px;
+			margin-top: 20px;
+			padding: 10px;
+			border: silver inset;
+			border-width: 5px;
+			padding: 10px;
+			border: silver inset;
+			border-width: 5px;
+			background-color: white;
+			opacity: 0.8;
+			filter: alpha(opacity=80);
+		}
+		
+	/*---------------------------------------------------------------------------*/
+	/*---------------------------------------------------------------------------*/
+	/* // here comes the goodnes  */	
+	
+		ul#gallery, ul#gallery li{
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+		ul#gallery{
+			margin:2em 0;
+		}
+		ul#gallery li{
+			float:left;
+			display:inline;
+			margin-right:5px;
+		}
+		ul#gallery a{
+			float:left;
+			display:inline;
+			position:relative;
+		}
+		ul#gallery a:hover{
+			background:none;
+			z-index:100;
+		}
+		ul#gallery a span{
+			display:none;
+		}
+		ul#gallery a:hover span{
+			float:left;
+			display:block;
+			cursor:pointer;
+		}
+		ul#gallery a:hover em{
+			display:none;
+		}	
+		ul#gallery a img{
+			border:1px solid #999;
+			padding:2px;
+			background:#fff;
+		}
+		ul#gallery a:hover img{
+			border:1px solid #000;
+		}
